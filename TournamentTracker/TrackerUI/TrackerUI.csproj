@@ -81,6 +81,12 @@
     <EmbeddedResource Include="CreatePrizeForm.resx">
       <DependentUpon>CreatePrizeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreateTeamForm.resx">
+      <DependentUpon>CreateTeamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTournamentForm.resx">
+      <DependentUpon>CreateTournamentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

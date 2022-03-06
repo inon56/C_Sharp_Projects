@@ -21,5 +21,10 @@ namespace TrackerUI
         {
 
         }
+
+        private void TournamentViewerForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

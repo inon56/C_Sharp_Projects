@@ -4,3 +4,6 @@ C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerLibrary\obj\Debug\Tra
 C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CoreCompileInputs.cache
 C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.dll
 C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.pdb
+C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerLibrary\bin\Debug\Dapper.dll
+C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerLibrary\bin\Debug\Dapper.xml
+C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CopyComplete

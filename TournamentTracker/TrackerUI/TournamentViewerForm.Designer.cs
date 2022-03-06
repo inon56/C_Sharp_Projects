@@ -75,7 +75,7 @@
             this.RoundLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.RoundLabel.Location = new System.Drawing.Point(39, 146);
             this.RoundLabel.Name = "RoundLabel";
-            this.RoundLabel.Size = new System.Drawing.Size(117, 46);
+            this.RoundLabel.Size = new System.Drawing.Size(115, 45);
             this.RoundLabel.TabIndex = 16;
             this.RoundLabel.Text = "Round";
             // 
@@ -96,7 +96,7 @@
             this.unplayedOnlyCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.unplayedOnlyCheckBox.Location = new System.Drawing.Point(185, 221);
             this.unplayedOnlyCheckBox.Name = "unplayedOnlyCheckBox";
-            this.unplayedOnlyCheckBox.Size = new System.Drawing.Size(257, 50);
+            this.unplayedOnlyCheckBox.Size = new System.Drawing.Size(253, 49);
             this.unplayedOnlyCheckBox.TabIndex = 18;
             this.unplayedOnlyCheckBox.Text = "Unplayed Only";
             this.unplayedOnlyCheckBox.UseVisualStyleBackColor = true;
@@ -119,7 +119,7 @@
             this.teamOneName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.teamOneName.Location = new System.Drawing.Point(574, 307);
             this.teamOneName.Name = "teamOneName";
-            this.teamOneName.Size = new System.Drawing.Size(208, 46);
+            this.teamOneName.Size = new System.Drawing.Size(203, 45);
             this.teamOneName.TabIndex = 20;
             this.teamOneName.Text = "<team one>";
             // 
@@ -130,7 +130,7 @@
             this.teamTwoName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.teamTwoName.Location = new System.Drawing.Point(574, 521);
             this.teamTwoName.Name = "teamTwoName";
-            this.teamTwoName.Size = new System.Drawing.Size(208, 46);
+            this.teamTwoName.Size = new System.Drawing.Size(202, 45);
             this.teamTwoName.TabIndex = 21;
             this.teamTwoName.Text = "<team two>";
             // 
@@ -141,7 +141,7 @@
             this.teamOneScoreLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.teamOneScoreLabel.Location = new System.Drawing.Point(574, 373);
             this.teamOneScoreLabel.Name = "teamOneScoreLabel";
-            this.teamOneScoreLabel.Size = new System.Drawing.Size(104, 46);
+            this.teamOneScoreLabel.Size = new System.Drawing.Size(100, 45);
             this.teamOneScoreLabel.TabIndex = 22;
             this.teamOneScoreLabel.Text = "Score";
             // 
@@ -169,7 +169,7 @@
             this.teamTwoScoreLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.teamTwoScoreLabel.Location = new System.Drawing.Point(574, 582);
             this.teamTwoScoreLabel.Name = "teamTwoScoreLabel";
-            this.teamTwoScoreLabel.Size = new System.Drawing.Size(104, 46);
+            this.teamTwoScoreLabel.Size = new System.Drawing.Size(100, 45);
             this.teamTwoScoreLabel.TabIndex = 25;
             this.teamTwoScoreLabel.Text = "Score";
             // 
@@ -180,7 +180,7 @@
             this.versusLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.versusLabel.Location = new System.Drawing.Point(651, 456);
             this.versusLabel.Name = "versusLabel";
-            this.versusLabel.Size = new System.Drawing.Size(87, 46);
+            this.versusLabel.Size = new System.Drawing.Size(85, 45);
             this.versusLabel.TabIndex = 26;
             this.versusLabel.Text = "-VS-";
             // 
@@ -220,6 +220,7 @@
             this.Controls.Add(this.headerLabal);
             this.Name = "TournamentViewerForm";
             this.Text = "TournamentViewerForm";
+            this.Load += new System.EventHandler(this.TournamentViewerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

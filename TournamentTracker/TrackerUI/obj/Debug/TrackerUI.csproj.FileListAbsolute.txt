@@ -14,3 +14,7 @@ C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\bin\Debug\TrackerL
 C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.TournamentDashboardForm.resources
 C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.TournamentViewerForm.resources
 C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csproj.CopyComplete
+C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\bin\Debug\Dapper.dll
+C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\bin\Debug\Dapper.xml
+C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreateTeamForm.resources
+C:\Users\leino\Desktop\C#_Project\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreateTournamentForm.resources

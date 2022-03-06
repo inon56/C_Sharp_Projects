@@ -93,6 +93,7 @@
             this.prizePercentageValue.Name = "prizePercentageValue";
             this.prizePercentageValue.Size = new System.Drawing.Size(326, 47);
             this.prizePercentageValue.TabIndex = 20;
+            this.prizePercentageValue.Text = "0";
             // 
             // prizePercentageLabel
             // 
@@ -112,6 +113,7 @@
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(326, 47);
             this.prizeAmountValue.TabIndex = 21;
+            this.prizeAmountValue.Text = "0";
             // 
             // placeNameValue
             // 
@@ -157,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1218, 963);
+            this.ClientSize = new System.Drawing.Size(775, 692);
             this.Controls.Add(this.createPrizeButton);
             this.Controls.Add(this.orLabel);
             this.Controls.Add(this.placeNumberValue);
@@ -173,6 +175,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CreatePrizeForm";
             this.Text = "Create Prize";
+            this.Load += new System.EventHandler(this.CreatePrizeForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

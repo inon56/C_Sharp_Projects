@@ -3,33 +3,41 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrackerLibary.DataAccess;
+using System.Configuration;
+using TrackerLibrary;
+using TrackerLibrary.DataAccess;
 
-namespace TrackerLibary
+namespace TrackerLibrary
 {
     public static class GlobalConfig
     {
         // The - {get; private set;} - says that only methods that are inside this class can change the value of connections
-        // but everyone can read can read the value of connections
-        public static List<IDataConnection> Connections { get; private set;}  
+        // but everyone can read the value of connections
+        public static IDataConnection Connection { get; private set;}  
         
         // This method saying which connections to set up 
-        public static void InitializeConnections(bool database, bool textFiles)
+        public static void InitializeConnections(DatabaseType db)
         {
-            Connections = new List<IDataConnection>();
 
-            if(database)
+            if(db == DatabaseType.Sql)
             {
                 // TODO - set up SQL connector properly
                 SqlConnector sql = new SqlConnector();
-                Connections.Add(sql);
+                Connection = sql;
             }
-
-            if(textFiles)
+            else if(db == DatabaseType.TextFile)
             {
                 // TODO  - create text connection
-                TextConnection textConnection = new TextConnection();
-                Connections.Add(textConnection);
+                TextConnector text = new TextConnector();
+                Connection = text;
             }
+        }
+
+        // This going to go to the app config and get the connection string
+        public static string CnnString(string name)
+        {
+            return ConfigurationManager.ConnectionStrings[name].ConnectionString;
         }
     }
 }
